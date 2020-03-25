@@ -1,4 +1,4 @@
-name: "Hello Actions"
+name: "Hello Actions1"
 description: "Greet someone"
 author: "octocat@github.com"
 
@@ -6,7 +6,7 @@ inputs:
   MY_NAME:
     description: "Who to greet"
     required: true
-    default: "Sharon Chen"
+    default: "Sharon"
 
 runs:
   using: "docker"
@@ -14,4 +14,4 @@ runs:
 
 branding:
   icon: "mic"
-  color: "purple"
+  color: "pink"
